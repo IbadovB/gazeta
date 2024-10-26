@@ -1,0 +1,1078 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+
+    background-color: #ebebeb;
+}
+
+.header {
+    font-size: 2rem;
+    padding-top: 1em;
+    background: #fff;
+    box-shadow: 1px #E1E1E1;
+}
+
+.first-line {
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.8em;
+
+}
+
+.city {
+    display: flex;
+    gap: 1em;
+    padding-left: 1em;
+}
+
+.city-text {
+    font-family: Golos;
+    line-height: 1.6em;
+    text-align: left;
+    color: #76767A;
+    font-size: 1em;
+
+}
+
+.angle-down {
+    color: #b3b3b3;
+    padding-top: 0.3em;
+    border-style: none;
+    background: none;
+    font-size: 0.7em;
+}
+
+.temperature {
+    display: flex;
+    gap: 0.5em;
+    padding-top: 0.08em;
+
+}
+
+.first-line .fa-cloud-showers-heavy {
+    color: #b3b3b3;
+    padding-top: 0.5em;
+    font-size: .8em;
+}
+
+.temp-text {
+    font-family: Golos;
+    font-size: .9em;
+    font-weight: 500;
+    line-height: 1.6em;
+    text-align: left;
+    color: #666666;
+}
+
+.head-text {
+    font-family: Golos;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 1000;
+    line-height: 1em;
+    letter-spacing: 0.23630349338054657px;
+    text-align: center;
+    color: #000000;
+    padding-top: 5px;
+    display: block;
+}
+
+.enter {
+    display: flex;
+    gap: 2em;
+}
+
+.fa-user {
+    padding-top: .5em;
+    color: #9C9C9C;
+    font-size: .9em;
+
+}
+
+.enter-text {
+    font-family: Golos;
+    font-size: .9em;
+    font-weight: 500;
+    line-height: 1em;
+    text-align: left;
+    color: #999999;
+    border-style: none;
+    background: none;
+    padding-right: 1.5em;
+    padding-top: 0.18em;
+
+}
+
+.second-line {
+
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid hsl(0, 0%, 0%, 0.1);
+    border-bottom: 1px solid hsl(0, 0%, 0%, 0.1);
+    background: #fff;
+
+}
+
+
+.menu-btn {
+    background: none;
+    border: none;
+
+}
+
+.fa-bars {
+    padding: 2em 3.5em 1.7em 1.7em;
+    font-size: 1em;
+    color: #999999;
+    padding-right: 1px solid #e1e1e1;
+    border-right: 0.1em solid hsl(0, 0%, 0%, 0.1);
+}
+
+.second-line ul {
+    display: flex;
+    gap: 4em;
+    padding: .9em 1em 0.8em 3.9em;
+    list-style: none;
+}
+
+.second-line li a {
+    font-family: Golos;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1em;
+    text-align: left;
+    color: #76767A;
+    text-decoration: none;
+}
+
+.second-line li .active {
+    color: #333333;
+    padding-bottom: 1em;
+    border-bottom: 0.18em solid #1875F0;
+}
+
+.fa-magnifying-glass {
+    padding: 2em 2.8em 1.5em 2.5em;
+    font-size: 0.7em;
+    color: #999999;
+    border-left: 0.1em solid hsl(0, 0%, 0%, 0.1);
+
+}
+
+.search input {
+    display: none;
+
+}
+
+.container {
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 120em; */
+    margin: 0.01em auto;
+    padding: .7em 0 0 0.5em;
+    gap: 0.5em;
+
+}
+
+.pages {
+    border-bottom: 0.1em solid #E1E1E1;
+    display: flex;
+    gap: 0.5em;
+    list-style: none;
+    font-family: Golos;
+    font-size: .15em;
+    font-weight: 400;
+    line-height: 0.5em;
+    text-align: left;
+    padding-bottom: 0.1em;
+}
+
+.pages a {
+    text-decoration: none;
+}
+
+
+ul li .active2 {
+    text-decoration: underline;
+    color: #333333;
+}
+
+ul li .second {
+    color: #333333;
+
+}
+
+ul li .third {
+    color: #76767A;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.arxiv {
+    font-family: Golos;
+    font-size: .3em;
+    font-weight: 400;
+    line-height: 1em;
+    text-align: left;
+    color: #333333;
+    padding-top: 0.5em;
+}
+
+.tree,
+.clock,
+.video,
+.video-concratulate {
+    padding: 0.03em;
+    background: #fff;
+    border-radius: 0.05em;
+}
+
+.all-photo {
+    width: 100%;
+    padding-top: 0.3em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+
+.first-photo {
+    display: flex;
+    gap: 0.2em;
+}
+
+.photos {
+    border: 0.01em solid #99999921;
+    border-radius: 0.07em;
+    box-shadow: 0.01em 0.01em #99999921;
+    background: #fff;
+}
+
+.photos-text {
+    display: flex;
+    justify-content: center;
+    padding: .05em 0 1.3em 0;
+    font-family: Golos;
+    font-size: 0.2em;
+    font-weight: 500;
+    line-height: 0.7em;
+    text-align: left;
+    color: #333333;
+}
+
+.museum {
+    border: 0.01em solid #99999921;
+    border-radius: 0.07em;
+    box-shadow: 0.01em 0.01em #99999921;
+    background: #fff;
+}
+
+.museum-text {
+    display: flex;
+    justify-content: center;
+    font-family: Golos;
+    font-size: 0.2em;
+    font-weight: 500;
+    line-height: 0.7em;
+    text-align: left;
+    color: #333333;
+}
+
+.second-photo {
+    display: flex;
+    gap: 0.2em;
+
+}
+
+.videos {
+    border: 0.01em solid #99999921;
+    border-radius: 0.07em;
+    box-shadow: 1px 1px #99999921;
+    background: #fff;
+}
+
+.videos-text {
+    display: flex;
+    justify-content: center;
+    padding: .05em 0 1.3em 0;
+    font-family: Golos;
+    font-size: 0.2em;
+    font-weight: 500;
+    line-height: 0.7em;
+    text-align: left;
+    color: #333333;
+}
+
+.congratulate {
+    border: 0.01em solid #99999921;
+    border-radius: 0.07em;
+    box-shadow: 0.01em 0.01em #99999921;
+    background: #fff;
+}
+
+.congratulate-text {
+    display: flex;
+    justify-content: center;
+    font-family: Golos;
+    font-size: 0.2em;
+    font-weight: 500;
+    line-height: 0.7em;
+    text-align: left;
+    color: #333333;
+}
+
+.add {
+    display: flex;
+    border-bottom: 0.01em solid #E1E1E1;
+    padding: 0.5em 0.3em 0 0;
+}
+
+.add-btn {
+    border: none;
+    border-radius: 0.5em;
+    background: #1875F0;
+    margin: 0 auto 30px;
+
+}
+
+.add-text {
+    display: flex;
+    padding: 0 4em 0 4em;
+    color: #FFFFFF;
+    font-family: Golos;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 4em;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+
+.arctic {
+    position: relative;
+    height: 3.2em;
+    background: url("photo/mayak_bg@2x.png");
+    background-position: right;
+    top: 0.3em;
+    border-radius: 0.05em;
+    box-shadow: 0.02em 0.02em #e1e1e1;
+}
+
+
+.arctic-text {
+    position: absolute;
+    top: 0.1em;
+    left: 3.4em;
+    font-family: Golos;
+    font-size: 0.18em;
+    font-weight: 500;
+    line-height: 5em;
+    text-align: left;
+    color: #000000;
+}
+
+.mayak img {
+    position: absolute;
+    top: 1em;
+    left: 0.6em;
+}
+
+.visit {
+    position: absolute;
+    top: 17em;
+    left: 4.5em;
+    border-radius: 0.5em;
+    border: 0.01em solid #1875F0;
+}
+
+.visit-text {
+    padding: 0.5em 1.9em;
+    top: 12em;
+    left: 2.5em;
+    font-family: Golos;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 46.45px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #1875F0;
+}
+
+.column {
+    font-size: 0.3em;
+    padding: 1.1em 0 0.4em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.weather {
+    background: #fff;
+    border: 0.01em solid #E1E1E1;
+    box-shadow: 0.02em 0.02em #E1E1E1;
+    border-radius: 0.5em;
+    margin-bottom: 0.1em;
+}
+
+.weather-header {
+    font-size: 0.6em;
+    padding: 1.3em .7em 1.3em .7em;
+    font-family: Golos;
+    font-weight: 500;
+    line-height: 0.01em;
+    text-align: left;
+    color: #000000;
+    border-bottom: 0.01em solid #E1E1E1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-text {
+    padding-top: 0.2em;
+}
+
+.points {
+    font-size: 1.5em;
+    color: #D8D8D8;
+}
+
+.weather-temp {
+    font-size: 0.6em;
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 0.3em;
+}
+
+.weather-temp .fa-cloud-showers-heavy {
+    color: #1875F0;
+}
+
+.weather-texts1 {
+    padding: 1em 0 0.3em 0;
+    font-family: Golos;
+    font-size: 0.5em;
+    font-weight: 500;
+    line-height: 0.5em;
+    text-align: center;
+}
+
+.weather-texts2 {
+    /* padding: 15px 60px 0 65px; */
+    padding-top: 1em;
+    font-family: Golos;
+    font-size: 0.4em;
+    font-weight: 400;
+    line-height: 1em;
+    text-align: center;
+}
+
+.weather-texts2 span {
+    padding: 0.1em;
+}
+
+.forecast {
+    padding: 0.2em 0.2em;
+    width: 7em;
+    margin: 1em auto;
+    border: 0.05em solid #e6f1fff5;
+    border-radius: 0.2em;
+}
+
+.forecast-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Golos;
+    font-size: 0.3em;
+    font-weight: 500;
+    line-height: 5em;
+    letter-spacing: 0.40194278955459595px;
+    text-align: left;
+    color: #1875F0;
+}
+
+.weather-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2em;
+    padding: 0.7em 0 1em 0;
+    border-top: 0.01em solid #E1E1E1;
+}
+
+.otmena {
+    font-size: 0.6em;
+    font-family: Golos;
+    font-weight: 600;
+    line-height: 1em;
+    text-align: center;
+    color: #D86E28;
+}
+
+.class {
+    font-size: .6em;
+}
+
+.map {
+    width: 10em;
+    border-radius: 0.5em;
+    border: 0.01em solid #E1E1E1;
+    box-shadow: 0.02em 0.02em #E1E1E1;
+    margin-bottom: 1em;
+
+}
+
+.map-header {
+    height: 5em;
+    font-size: 0.4em;
+    background: #fff;
+    padding: 0.3em 1em 0.3em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+
+}
+
+.status {
+
+    font-size: 1.5em;
+    padding-top: 0.3em;
+}
+
+
+.map-points {
+    padding-bottom: 0.3em;
+    font-size: 2.5em;
+    color: #D8D8D8;
+}
+
+.map-text {
+    background: url("https://www.shutterstock.com/shutterstock/photos/1871394598/display_1500/stock-vector--ity-map-paris-color-detailed-urban-road-plan-vector-illustration-1871394598.jpg");
+    border: 0.01em solid #E1E1E1;
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    padding: 5em 0 0 0.5em;
+    height: 9em;
+}
+
+
+.about {
+    border-radius: 0.5em;
+    background: #1875F0;
+    padding: 0.9em 2.5em;
+    border: none;
+    width: 12em;
+    margin: 0 0 2em 4em;
+}
+
+.about-text {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.airways {
+    font-size: 1em;
+    border: 0.01em solid #E1E1E1;
+    box-shadow: 0.02em 0.02em #E1E1E1;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5em;
+    width: 10em;
+}
+
+.airways-header {
+    display: flex;
+    padding: 0.7em 0.5em 0.7em 0.5em;
+    justify-content: space-between;
+    border-bottom: 0.02em solid #E1E1E1;
+}
+
+.airways-text {
+    font-family: Golos;
+    font-size: 0.7em;
+    font-weight: 500;
+    line-height: 2em;
+    text-align: left;
+    color: #000000;
+}
+
+.airways-points {
+    font-size: 1em;
+    color: #D8D8D8;
+}
+
+.fly-first {
+    padding: 0.5em 0 0.7em 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.01em solid #E1E1E1;
+    display: flex;
+    padding-bottom: 0.5em;
+}
+
+
+.fly1-text1 {
+    font-family: Golos;
+    font-size: 0.5em;
+    font-weight: 500;
+    line-height: 3.5em;
+    text-align: left;
+}
+
+.fly1-text2 {
+    font-family: Golos;
+    font-size: 0.4em;
+    font-weight: 400;
+    line-height: .3em;
+    text-align: left;
+}
+
+.fly1-icon {
+    padding: 0.6em;
+    color: green;
+}
+
+
+.fly2-text1 {
+    font-family: Golos;
+    font-size: 0.5em;
+    font-weight: 500;
+    line-height: 53.5px;
+    padding-left: 35px;
+}
+
+.fly2-text2 {
+    font-family: Golos;
+    font-size: 0.4em;
+    font-weight: 400;
+    line-height: .3em;
+    text-align: left;
+}
+
+.fly-second {
+    padding: 0..7em 0 0.9em 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.01em solid #E1E1E1;
+    display: flex;
+    padding-bottom: 0.5em;
+
+}
+
+.fly3-text1 {
+    font-family: Golos;
+    font-size: 0.5em;
+    font-weight: 500;
+    line-height: 3.5em;
+    text-align: left;
+}
+
+.fly3-text2 {
+    font-family: Golos;
+    font-size: 0.4em;
+    font-weight: 400;
+    line-height: .3em;
+    text-align: left;
+}
+
+.fly3-icon {
+    padding: 0.5em 0 0 0.5em;
+}
+
+.fly4 {
+    padding: 0 0 .5em 0;
+}
+
+.fly4-text1 {
+    font-family: Golos;
+    font-size: 0.5em;
+    font-weight: 500;
+    line-height: 3.5em;
+    text-align: right;
+}
+
+.fly4-text2 {
+    font-family: Golos;
+    font-size: 0.4em;
+    font-weight: 400;
+    line-height: 0.3em;
+    text-align: right;
+}
+
+.regis {
+    padding: 2em 0 2.5em 0.5em;
+    font-size: 0.5em;
+    color: #1875F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.container2 {
+    /* padding: 0.9em 1em 0 4em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.page-footer {
+    margin-top: 2em;
+    font-size: 2rem;
+    background: #fff;
+    border: 1px solid #E1E1E1;
+    padding: 0.5em 0 0.5em 0;
+
+}
+
+
+.portal {
+    /* padding-right: 5em; */
+    /* padding-left: 5em; */
+    width: 9em;
+    font-family: Golos;
+    font-weight: 900;
+    line-height: 2em;
+    letter-spacing: 0.19638599455356598px;
+    text-align: left;
+}
+
+.page-footer ul {
+    display: flex;
+    list-style: none;
+    gap: 1.8em;
+    /* padding-top: 0.4em; */
+    padding-left: 10em;
+}
+
+.page-footer li {
+    color: #76767A;
+
+}
+
+.page-footer .active {
+    color: #000000;
+}
+
+@media (max-width: 1100px) {
+
+    html {
+        font-size: 5px;
+    }
+
+    .header {
+        font-size: 15rem;
+        background: #fff;
+        position: relative;
+        padding: 0.5em 0 0.7em 0;
+     
+    }
+
+    .first-line {
+        border: none;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .second-line {
+        border: none;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .city,
+    .temperatue,
+    .enter,
+    .second-line ul,
+    .pages {
+        display: none;
+    }
+
+    .fa-bars {
+        position: absolute;
+        top: 35%;
+        left: 5%;
+        font-size: 1.5em;
+        padding-top: 0.1em;
+        border: none;
+        color: #999999;
+
+    }
+
+    .head-text {
+        font-family: Golos;
+        font-size: 0.3em;
+        font-weight: 1000;
+        line-height: 1em;
+        letter-spacing: 0.23630349338054657px;
+        text-align: center;
+        color: #000000;
+        border: none;
+        position: absolute;
+        left: 35%;
+        top: 31%;
+    }
+
+    .fa-magnifying-glass {
+        position: absolute;
+        left: 81%;
+        bottom: 0.8%;
+        padding-top: 0.em;
+        font-size: 0.3em;
+        color: #999999;
+        border: none;
+    }
+
+
+    .container {
+        font-size: 15rem;
+        flex-direction: column;
+        width: 80%;
+        margin: 0.01em auto 0 auto;
+    }
+
+
+
+    .arxiv {
+        font-family: Golos;
+        font-size: 0.3em;
+        font-weight: 400;
+        line-height: 0.5em;
+        text-align: left;
+    }
+
+
+
+    .first-photo {
+        display: flex;
+
+    }
+
+    .tree,
+    .clock,
+    .video,
+    .video-concratulate {
+        width: 100%;
+        padding: 0.05em 0.05em;
+        background: #fff;
+        border-radius: 0.05em;
+    }
+
+
+    .photos {
+        border: 0.01em solid #99999921;
+        border-radius: 0.05em;
+        box-shadow: 0.02em 0.02em #99999921;
+        background: #fff;
+    }
+
+    .photos-text {
+        padding-top: 0.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Golos;
+        font-size: 0.23em;
+        font-weight: 500;
+        line-height: 0.5em;
+        color: #333333;
+    }
+
+    .museum {
+        border: 1px solid #99999921;
+        border-radius: 0.05em;
+        box-shadow: 0.02em 0.02em #99999921;
+        background: #fff;
+    }
+
+    .museum-text {
+        display: flex;
+        font-family: Golos;
+        font-size: 0.23em;
+        font-weight: 500;
+        line-height: 1em;
+        padding: 0em 2.6em 0.7em 3em;
+        text-align: center;
+
+
+    }
+
+    .second-photo {
+        display: flex;
+    }
+
+    .videos {
+        border: 1px solid #99999921;
+        border-radius: 0.05em;
+        box-shadow: 0.02em 0.02em #99999921;
+        background: #fff;
+    }
+
+    .videos-text {
+        padding-top: 0.5em;
+        display: flex;
+        font-family: Golos;
+        font-size: 0.23em;
+        font-weight: 500;
+        line-height: 0.5em;
+
+    }
+
+    .congratulate {
+        border: 1px solid #99999921;
+        border-radius: 0.05em;
+        box-shadow: 0.02em 0.02em #99999921;
+        background: #fff;
+    }
+
+    .congratulate-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-family: Golos;
+        font-size: 0.23em;
+        font-weight: 500;
+        line-height: 1em;
+        padding: 0em 2.6em 0.7em 3em;
+        text-align: center;
+    }
+
+    .add {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 0.01em solid #E1E1E1;
+        /* margin-left: 40px; */
+        width: 100%;
+    }
+
+    .add-btn {
+        border-radius: 0.5em;
+        background: #1875F0;
+    }
+
+    .add-text {
+        display: flex;
+        color: #FFFFFF;
+        font-family: Golos;
+        font-size: 0.7em;
+        font-weight: 500;
+        line-height: 5em;
+        letter-spacing: 0.2em;
+        text-align: left;
+
+
+    }
+
+    .arctic {
+        position: relative;
+        background: url("photo/Rectangle 2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        top: 0.5em;
+        padding: 2.5em 0;
+        border-radius: 0.02em;
+
+    }
+
+
+    .arctic-text {
+        position: absolute;
+        top: 10%;
+        left: 30%;
+        font-family: Golos;
+        font-size: 0.4em;
+        font-weight: 500;
+        line-height: 0.5em;
+        text-align: left;
+        color: #000000;
+    }
+
+    .mayak img {
+        position: absolute;
+        top: 25%;
+        left: 30%;
+    }
+
+    .visit {
+        position: absolute;
+        top: 65%;
+        left: 30%;
+        border-radius: 0.5em;
+        border: 0.01em solid #1875F0;
+    }
+
+    .visit-text {
+        padding: 0.5em 2em;
+        font-family: Golos;
+        font-size: 0.8em;
+        font-weight: 500;
+        line-height: 4em;
+        letter-spacing: 0.2em;
+        text-align: left;
+        color: #1875F0;
+    }
+
+
+    .column {
+        display: none;
+    }
+
+    .page-footer {
+        margin-top: 30rem;
+        font-size: 5rem;
+        padding-bottom: 3em;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .portal {
+        padding-top: 1em;
+        font-family: Golos;
+        font-size: 1em;
+        font-weight: 900;
+        line-height: 1em;
+        letter-spacing: 0.19638599455356598px;
+        text-align: left;
+
+    }
+
+    .container2 ul {
+        padding-right: 10em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
