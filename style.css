@@ -341,7 +341,7 @@ ul li .third {
 
 .add {
     display: flex;
-    border-bottom: 0.01em solid #E1E1E1;
+    border-bottom: 0.01em solid #e1e1e1;
     padding: 0.5em 0.3em 0 0;
 }
 
@@ -349,7 +349,7 @@ ul li .third {
     border: none;
     border-radius: 0.5em;
     background: #1875F0;
-    margin: 0 auto 30px;
+    margin: 0 auto 4em;
 
 }
 
@@ -367,46 +367,50 @@ ul li .third {
 }
 
 .arctic {
-    position: relative;
-    height: 3.2em;
+    height: 3em;
     background: url("photo/mayak_bg@2x.png");
     background-position: right;
-    top: 0.3em;
     border-radius: 0.05em;
     box-shadow: 0.02em 0.02em #e1e1e1;
+    margin-top: 0.6em;
 }
 
 
+.arctic-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0.3em 0 0 0.5em;
+
+}
+
 .arctic-text {
-    position: absolute;
-    top: 0.1em;
-    left: 3.4em;
+    padding-top: 0.01em;
     font-family: Golos;
     font-size: 0.18em;
     font-weight: 500;
-    line-height: 5em;
+    line-height: 2em;
     text-align: left;
     color: #000000;
 }
 
+
+
 .mayak img {
-    position: absolute;
-    top: 1em;
-    left: 0.6em;
+    width: 1.5em;
+    height: 0.8em;
 }
 
 .visit {
-    position: absolute;
-    top: 17em;
-    left: 4.5em;
+    width: 11em;
     border-radius: 0.5em;
     border: 0.01em solid #1875F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .visit-text {
-    padding: 0.5em 1.9em;
-    top: 12em;
-    left: 2.5em;
+
     font-family: Golos;
     font-size: 10px;
     font-weight: 500;
@@ -746,7 +750,7 @@ ul li .third {
     font-size: 2rem;
     background: #fff;
     border: 1px solid #E1E1E1;
-    padding: 0.5em 0.5em 0.5em 6em;
+    padding: 0.5em 0.5em 0.5em 3em;
 
 }
 
@@ -763,7 +767,7 @@ ul li .third {
     display: flex;
     list-style: none;
     gap: 1.5em;
-    padding-left: 5em;
+    padding-left: 8em;
 }
 
 .page-footer li {
@@ -978,60 +982,60 @@ ul li .third {
     }
 
     .arctic {
-        font-size: 0.4em;
-        height: 30em;
-        width: 100%;
-        position: relative;
-        background: url("photo/Rectangle 2.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-top: 3em;
-        top: 0.5em;
-        padding: 2.5em 0;
-        border-radius: 0.02em;
-
+        height: 13em;
+        background: url("photo/mayak_bg@2x.png");
+        background-position: left bottom;
+        box-shadow: 0.02em 0.02em #e1e1e1;
+        margin-top: 2.5em;
+        border-radius: 0.3em;
+      
     }
 
 
+    .arctic-main {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1em;
+        display: flex;
+        flex-direction: column;        
+        align-items: center;
+        gap: 0.5em;
+    }
+
     .arctic-text {
-        position: absolute;
-        top: 10%;
-        left: 30%;
+        padding-top: .01em;
         font-family: Golos;
-        font-size: 1.7em;
+        font-size: 1em;
         font-weight: 500;
-        line-height: 0.5em;
+        line-height: 2em;
         text-align: left;
         color: #000000;
     }
 
+
+
     .mayak img {
-        position: absolute;
-        top: 20%;
-        left: 30%;
-        font-size: 0.1em;
+        width: 6em;
+        height: 4em;
     }
 
     .visit {
-        position: absolute;
-        top: 68%;
-        left: 30%;
+        width: 11em;
         border-radius: 0.5em;
         border: 0.01em solid #1875F0;
-        font-size: 1.5em;
+      
     }
 
     .visit-text {
-        padding: 0.5em 2em;
+
         font-family: Golos;
-        font-size: 0.8em;
+        font-size: 10px;
         font-weight: 500;
-        line-height: 4em;
-        letter-spacing: 0.2em;
+        line-height: 46.45px;
+        letter-spacing: 1px;
         text-align: left;
         color: #1875F0;
     }
-
 
     .column {
         display: none;
