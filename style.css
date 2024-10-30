@@ -21,6 +21,10 @@ body {
     box-shadow: 1px #E1E1E1;
 }
 
+.mob-text {
+    display: none;
+}
+
 .first-line {
 
     display: flex;
@@ -738,19 +742,16 @@ ul li .third {
 }
 
 .page-footer {
-    margin-top: 2em;
+    margin-top: 3em;
     font-size: 2rem;
     background: #fff;
     border: 1px solid #E1E1E1;
-    padding: 0.5em 0 0.5em 0;
+    padding: 0.5em 0.5em 0.5em 6em;
 
 }
 
 
 .portal {
-    /* padding-right: 5em; */
-    /* padding-left: 5em; */
-    width: 9em;
     font-family: Golos;
     font-weight: 900;
     line-height: 2em;
@@ -761,9 +762,8 @@ ul li .third {
 .page-footer ul {
     display: flex;
     list-style: none;
-    gap: 1.8em;
-    /* padding-top: 0.4em; */
-    padding-left: 10em;
+    gap: 1.5em;
+    padding-left: 5em;
 }
 
 .page-footer li {
@@ -777,91 +777,74 @@ ul li .third {
 
 @media (max-width: 1100px) {
 
-    html {
-        font-size: 5px;
-    }
-
     .header {
-        font-size: 15rem;
+        font-size: 5rem;
         background: #fff;
-        position: relative;
-        padding: 0.5em 0 0.7em 0;
-     
+        padding: 0;
+        padding: 0 0.5em;
+
     }
 
     .first-line {
-        border: none;
-        padding: 0;
-        margin: 0;
+        display: none;
 
     }
 
     .second-line {
-        border: none;
-        padding: 0;
-        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
     }
 
-    .city,
-    .temperatue,
-    .enter,
+    .mob-text {
+        font-size: 0.5em;
+        display: block;
+
+    }
+
+    .first-line,
     .second-line ul,
     .pages {
         display: none;
     }
 
     .fa-bars {
-        position: absolute;
-        top: 35%;
-        left: 5%;
+        padding: 0;
         font-size: 1.5em;
-        padding-top: 0.1em;
         border: none;
         color: #999999;
-
-    }
-
-    .head-text {
-        font-family: Golos;
-        font-size: 0.3em;
-        font-weight: 1000;
-        line-height: 1em;
-        letter-spacing: 0.23630349338054657px;
-        text-align: center;
-        color: #000000;
-        border: none;
-        position: absolute;
-        left: 35%;
-        top: 31%;
     }
 
     .fa-magnifying-glass {
-        position: absolute;
-        left: 81%;
-        bottom: 0.8%;
-        padding-top: 0.em;
-        font-size: 0.3em;
+        padding: 0;
+        padding-bottom: 1.3em;
+        font-size: 0.4em;
         color: #999999;
         border: none;
+        margin: 0;
     }
 
 
     .container {
-        font-size: 15rem;
+        font-size: 2rem;
         flex-direction: column;
         width: 80%;
-        margin: 0.01em auto 0 auto;
+        margin: 0.1em auto 0;
     }
 
-
+    .all-photo {
+        width: 100%;
+    }
 
     .arxiv {
         font-family: Golos;
-        font-size: 0.3em;
+        font-size: 0.7em;
         font-weight: 400;
         line-height: 0.5em;
         text-align: left;
+        padding-bottom: 0.7em;
+
     }
 
 
@@ -871,37 +854,41 @@ ul li .third {
 
     }
 
+
     .tree,
     .clock,
     .video,
     .video-concratulate {
         width: 100%;
+        height: 70%;
         padding: 0.05em 0.05em;
         background: #fff;
         border-radius: 0.05em;
     }
 
 
+
     .photos {
+        width: 50%;
         border: 0.01em solid #99999921;
         border-radius: 0.05em;
         box-shadow: 0.02em 0.02em #99999921;
         background: #fff;
+
     }
 
     .photos-text {
-        padding-top: 0.5em;
+        padding: 0.4em 0 0.1em 0;
         display: flex;
-        justify-content: center;
-        align-items: center;
         font-family: Golos;
-        font-size: 0.23em;
+        font-size: 0.5em;
         font-weight: 500;
-        line-height: 0.5em;
+        line-height: 1em;
         color: #333333;
     }
 
     .museum {
+        width: 50%;
         border: 1px solid #99999921;
         border-radius: 0.05em;
         box-shadow: 0.02em 0.02em #99999921;
@@ -909,14 +896,14 @@ ul li .third {
     }
 
     .museum-text {
+        padding: 0.1em 6em 0.3em 6em;
         display: flex;
         font-family: Golos;
-        font-size: 0.23em;
+        font-size: 0.5em;
         font-weight: 500;
         line-height: 1em;
-        padding: 0em 2.6em 0.7em 3em;
+        color: #333333;
         text-align: center;
-
 
     }
 
@@ -925,6 +912,7 @@ ul li .third {
     }
 
     .videos {
+        width: 50%;
         border: 1px solid #99999921;
         border-radius: 0.05em;
         box-shadow: 0.02em 0.02em #99999921;
@@ -932,16 +920,18 @@ ul li .third {
     }
 
     .videos-text {
-        padding-top: 0.5em;
+        padding: 0.5em 0 0.1em 0;
         display: flex;
         font-family: Golos;
-        font-size: 0.23em;
+        font-size: 0.5em;
         font-weight: 500;
-        line-height: 0.5em;
+        line-height: 1em;
+        color: #333333;
 
     }
 
     .congratulate {
+        width: 50%;
         border: 1px solid #99999921;
         border-radius: 0.05em;
         box-shadow: 0.02em 0.02em #99999921;
@@ -949,15 +939,13 @@ ul li .third {
     }
 
     .congratulate-text {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        padding: 0.1em 5em 0.3em 5em;
         display: flex;
         font-family: Golos;
-        font-size: 0.23em;
+        font-size: 0.5em;
         font-weight: 500;
         line-height: 1em;
-        padding: 0em 2.6em 0.7em 3em;
+        color: #333333;
         text-align: center;
     }
 
@@ -965,14 +953,15 @@ ul li .third {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top: 1.5em;
         border-bottom: 0.01em solid #E1E1E1;
-        /* margin-left: 40px; */
-        width: 100%;
+
     }
 
     .add-btn {
         border-radius: 0.5em;
         background: #1875F0;
+        padding: 0 0.7em;
     }
 
     .add-text {
@@ -989,11 +978,14 @@ ul li .third {
     }
 
     .arctic {
+        font-size: 0.4em;
+        height: 30em;
+        width: 100%;
         position: relative;
         background: url("photo/Rectangle 2.png");
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center bottom;
+        margin-top: 3em;
         top: 0.5em;
         padding: 2.5em 0;
         border-radius: 0.02em;
@@ -1006,7 +998,7 @@ ul li .third {
         top: 10%;
         left: 30%;
         font-family: Golos;
-        font-size: 0.4em;
+        font-size: 1.7em;
         font-weight: 500;
         line-height: 0.5em;
         text-align: left;
@@ -1015,16 +1007,18 @@ ul li .third {
 
     .mayak img {
         position: absolute;
-        top: 25%;
+        top: 20%;
         left: 30%;
+        font-size: 0.1em;
     }
 
     .visit {
         position: absolute;
-        top: 65%;
+        top: 68%;
         left: 30%;
         border-radius: 0.5em;
         border: 0.01em solid #1875F0;
+        font-size: 1.5em;
     }
 
     .visit-text {
@@ -1044,21 +1038,23 @@ ul li .third {
     }
 
     .page-footer {
-        margin-top: 30rem;
-        font-size: 5rem;
+        padding: 0.5em 0.5em 0.5em 0.8em;
+        margin-top: 3em;
+        font-size: 3rem;
         padding-bottom: 3em;
     }
 
     .container2 {
         display: flex;
         flex-direction: column;
-        gap: 2em;
+        gap: 1em;
     }
 
     .portal {
-        padding-top: 1em;
+
+        padding: 1em 0 0 0.01em;
         font-family: Golos;
-        font-size: 1em;
+        font-size: 0.7em;
         font-weight: 900;
         line-height: 1em;
         letter-spacing: 0.19638599455356598px;
@@ -1067,11 +1063,12 @@ ul li .third {
     }
 
     .container2 ul {
-        padding-right: 10em;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-size: 0.6em;
+        padding-left: 0.01em;
     }
 
 
