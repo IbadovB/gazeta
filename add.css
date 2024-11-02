@@ -302,8 +302,8 @@ ul li .third {
     padding: 1.2em 1.2em 1.2em 2em;
     text-align: left;
     font-size: 0.15em;
-    border: 0.1em solid #9999992c;
-    box-shadow: 0.05em #9999992c;
+    border: 0.15em solid #9999992c;
+    box-shadow: 0.7em #9999992c;
     border-radius: 0.5em;
 }
 
@@ -312,10 +312,11 @@ ul li .third {
     display: flex;
     align-items: center;
     background: #fff;
-    padding-left: 0.1em;
-    border-radius: 0.07em;
-    border: 0.02em solid #9999992c;
-    box-shadow: 0.01em #9999992c;
+    padding-left: 3em;
+    border-radius: 0.7em;
+    border: 0.3em solid #9999992c;
+    box-shadow: 0.7em #9999992c;
+    font-size: 0.08em
 }
 
 
@@ -325,12 +326,12 @@ ul li .third {
     display: flex;
     font-size: 0.15em;
     background: #4e4d4d8e;
-    padding: 0.1em 0.5em 0.1em 0.5em;
+    padding: 0.1em 0.7em 0.1em 0.7em;
     background: #dfdfdf;
-    border-radius: 0.5em;
+    border-radius: 1em;
     justify-content: space-between;
     align-items: center;
-
+    font-size: 1.7em
 }
 
 .kot img {
@@ -358,8 +359,12 @@ ul li .third {
     padding-bottom: 5em;
 }
 
-.message-to {
+.message-first {
     font-size: 1em;
+}
+
+.message-second {
+    display: none;
 }
 
 .cancel {
@@ -403,9 +408,7 @@ ul li .third {
 
 }
 
-.message-to {
-    font-size: 1em;
-}
+
 
 .message-select .fa-angle-down {
     color: #AFAFAF;
@@ -787,4 +790,289 @@ ul li .third {
 
 .page-footer .active {
     color: #000000;
+}
+
+@media (max-width: 1100px) {
+
+    .header {
+        font-size: 5rem;
+        background: #fff;
+        padding: 0;
+        padding: 0 0.5em;
+
+    }
+
+    .first-line {
+        display: none;
+
+    }
+
+    .second-line {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .mob-text {
+        font-size: 0.5em;
+        display: block;
+
+    }
+
+    .first-line,
+    .second-line ul,
+    .pages {
+        display: none;
+    }
+
+    .fa-bars {
+        padding: 0;
+        font-size: 1.5em;
+        border: none;
+        color: #999999;
+    }
+
+    .fa-magnifying-glass {
+        padding: 0;
+        padding-bottom: 1.3em;
+        font-size: 0.4em;
+        color: #999999;
+        border: none;
+        margin: 0;
+    }
+
+
+    .container {
+        font-size: 2rem;
+        flex-direction: column;
+        width: 80%;
+        margin: 0.1em auto 0;
+    }
+
+
+    .add-file {
+        padding: 1em 0;
+        font-family: Golos;
+        font-size: 0.7em;
+        font-weight: 400;
+        text-align: left;
+        color: #333333;
+    }
+
+    .first-section {
+        border: 4px dashed #AFAFAF;
+        margin-top: 0.2em;
+        display: flex;
+        flex-direction: column;
+        gap: 0.2em;
+        border-radius: 0.1em;
+        background: #fff;
+    }
+
+    .plus-section {
+        text-align: center;
+    }
+
+    .plus {
+        width: 0.7em;
+        height: 0.7em;
+    }
+
+    .plus-text {
+        font-size: 0.7em;
+    }
+
+    .format-section {
+        font-size: 2.8em;
+        text-align: center;
+        line-height: 0.3em;
+
+    }
+
+    .format {
+        font-size: 0.25em;
+    }
+
+
+    .format-type {
+        font-size: 0.17em;
+    }
+
+
+    .second-section {
+        margin-top: 1em;
+        background: #fff;
+        padding: .5em 0.5em 0 0.5em;
+        display: flex;
+        flex-direction: column;
+        gap: 0.3em;
+    }
+
+    #first-inp {
+        padding: 1.3em 1.3em 1.3em 2em;
+       
+        border: 0.2em solid #9999992c;
+        box-shadow: 0.01em #9999992c;
+        border-radius: 0.5em;
+        font-size: 0.5em;
+        margin-bottom: 0.8em;
+    }
+
+
+    .input-line {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8em;
+    }
+
+
+    #second-inp {
+        padding: 1.2em 1.2em 1.2em 2em;
+        text-align: left;
+        font-size: 0.5em;
+        border: 0.2em solid #9999992c;
+        box-shadow: 0.5em #9999992c;
+        border-radius: 0.5em;
+    }
+
+    .kot {
+        border: 0.01em solid #999999;
+        display: flex;
+        align-items: center;
+        background: #fff;
+        padding: 0.2em 1em 0.2em 0.5em;
+        border-radius: 0.15em;
+        border: 0.09em solid #9999992c;
+        box-shadow: 0.15em #9999992c;
+        font-size: 1.5em
+    }
+
+
+    .kot-text {
+        display: flex;
+        font-size: 0.15em;
+        background: #4e4d4d8e;
+        padding: 0.5em 3em 0.5em 0.8em;
+        background: #dfdfdf;
+        border-radius: 1em;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.4em
+    }
+
+    .kot img {
+        width: 0.9em;
+        height: 0.6em;
+        padding-left: 0.5em;
+    }
+
+
+    #kot-line {
+        text-align: left;
+        border: none;
+        padding-left: 1em;
+    }
+
+    .cancel {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.5px solid #1875F0;
+        padding: 0 2em 0 2em;
+        border-radius: 0.5em;
+        background: #fff;
+        margin-bottom: 0.8em;
+
+    }
+
+    .cancel-text {
+        font-size: 0.8em;
+        padding: 1.2em 0.5em 1.2em 1.5em;
+        color: #1875F0;
+    }
+
+    .message-select {
+        padding: 2em 3em 2em 3em;
+        width: 100%;
+        height: 0.5em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 0.2em solid #9999991c;
+        box-shadow: 0.01em #9999992c;
+        border-radius: 0.5em;
+        margin: 0.8em 0 3em 0;
+
+    }
+
+    .message-first {
+        display: none;
+    }
+
+    .message-second {
+        display: block;
+        font-size: 0.8em;
+    }  
+
+    .send-btn {
+        width: 100%;
+        margin: 0 0 2.5em 0;
+        
+        border-radius: 0.5em;
+        /* width: 15em; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #1875F0;
+        box-shadow: 0.1em 0.1em 0.1em 0.1em #1875F0;
+        color: #FFFFFF;
+        border: none;
+
+    }
+
+    .send {
+        padding: 1.3em 1em 1.3em 1em;
+        font-size: 1em;
+    }
+
+    .column{
+        display: none;
+    }
+
+    .page-footer {
+        padding: 0.5em 0.5em 0.5em 0.8em;
+        margin-top: 3em;
+        font-size: 3rem;
+        padding-bottom: 3em;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .portal {
+
+        padding: 1em 0 0 0.01em;
+        font-family: Golos;
+        font-size: 0.7em;
+        font-weight: 900;
+        line-height: 1em;
+        letter-spacing: 0.19638599455356598px;
+        text-align: left;
+
+    }
+
+    .container2 ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.6em;
+        padding-left: 0.01em;
+    }
+
 }
