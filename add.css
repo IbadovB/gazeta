@@ -26,10 +26,9 @@ body {
 }
 
 .first-line {
-
     display: flex;
     justify-content: space-between;
-    padding-bottom: 0.8em;
+    padding-bottom: 0.5em;
 
 }
 
@@ -184,7 +183,11 @@ body {
     margin: 0.5em auto 0 auto;
     width: 7em;
     gap: 0.5em;
+}
 
+.main {
+    display: flex;
+    flex-direction: column;
 }
 
 .pages {
@@ -197,225 +200,235 @@ body {
     font-weight: 400;
     line-height: 0.5em;
     text-align: left;
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
 }
 
 .pages a {
     text-decoration: none;
-}
-
-
-ul li .active2 {
-    text-decoration: underline;
-    color: #333333;
-}
-
-ul li .second {
-    color: #333333;
-
-}
-
-ul li .third {
-    color: #76767A;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-}
-
-.arxiv {
-    font-family: Golos;
-    font-size: .3em;
-    font-weight: 400;
-    line-height: 1em;
-    text-align: left;
-    color: #333333;
-    padding-top: 0.5em;
-}
-
-.tree,
-.clock,
-.video,
-.video-concratulate {
-    padding: 0.03em;
-    background: #fff;
-    border-radius: 0.05em;
-}
-
-.all-photo {
-    width: 100%;
-    padding-top: 0.3em;
-    display: flex;
-    flex-direction: column;
-    gap: 0.2em;
-}
-
-.first-photo {
-    display: flex;
-    gap: 0.2em;
-}
-
-.photos {
-    border: 0.01em solid #99999921;
-    border-radius: 0.07em;
-    box-shadow: 0.01em 0.01em #99999921;
-    background: #fff;
-}
-
-.photos-text {
-    display: flex;
-    justify-content: center;
-    padding: .05em 0 1.3em 0;
-    font-family: Golos;
-    font-size: 0.2em;
-    font-weight: 500;
-    line-height: 0.7em;
-    text-align: left;
-    color: #333333;
-}
-
-.museum {
-    border: 0.01em solid #99999921;
-    border-radius: 0.07em;
-    box-shadow: 0.01em 0.01em #99999921;
-    background: #fff;
-}
-
-.museum-text {
-    display: flex;
-    justify-content: center;
-    font-family: Golos;
-    font-size: 0.2em;
-    font-weight: 500;
-    line-height: 0.7em;
-    text-align: left;
-    color: #333333;
-}
-
-.second-photo {
-    display: flex;
-    gap: 0.2em;
-
-}
-
-.videos {
-    border: 0.01em solid #99999921;
-    border-radius: 0.07em;
-    box-shadow: 1px 1px #99999921;
-    background: #fff;
-}
-
-.videos-text {
-    display: flex;
-    justify-content: center;
-    padding: .05em 0 1.3em 0;
-    font-family: Golos;
-    font-size: 0.2em;
-    font-weight: 500;
-    line-height: 0.7em;
-    text-align: left;
-    color: #333333;
-}
-
-.congratulate {
-    border: 0.01em solid #99999921;
-    border-radius: 0.07em;
-    box-shadow: 0.01em 0.01em #99999921;
-    background: #fff;
-}
-
-.congratulate-text {
-    display: flex;
-    justify-content: center;
-    font-family: Golos;
-    font-size: 0.2em;
-    font-weight: 500;
-    line-height: 0.7em;
-    text-align: left;
-    color: #333333;
-}
-
-.add {
-    display: flex;
-    border-bottom: 0.01em solid #e1e1e1;
-    padding: 0.5em 0.3em 0 0;
-}
-
-.add-btn {
-    border: none;
-    border-radius: 0.5em;
-    background: #1875F0;
-    margin: 0 auto 4em;
-}
-
-.add-text {
-    text-decoration: none;
-    display: flex;
-    padding: 0 4em 0 4em;
-    color: #FFFFFF;
-    font-family: Golos;
-    font-size: 1em;
-    font-weight: 500;
-    line-height: 4em;
-    letter-spacing: 0.01em;
-    text-align: left;
-
-}
-
-.arctic {
-    height: 3em;
-    background: url("photo/mayak_bg@2x.png");
-    background-position: right;
-    border-radius: 0.05em;
-    box-shadow: 0.02em 0.02em #e1e1e1;
-    margin-top: 0.6em;
-}
-
-
-.arctic-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0.3em 0 0 0.5em;
-
-}
-
-.arctic-text {
-    padding-top: 0.01em;
-    font-family: Golos;
-    font-size: 0.18em;
-    font-weight: 500;
-    line-height: 2em;
-    text-align: left;
     color: #000000;
 }
 
 
 
-.mayak img {
-    width: 1.5em;
-    height: 0.8em;
+ul li .active2 {
+    text-decoration: underline;
+    color: #000000;
 }
 
-.visit {
-    width: 11em;
+
+ul li .third {
+    color: #9e9e9e;
+}
+
+
+.add-file {
+    padding-top: 0.25em;
+    font-family: Golos;
+    font-size: 0.3em;
+    font-weight: 400;
+    text-align: left;
+    color: #333333;
+}
+
+
+.first-section {
+    border: 4px dashed #AFAFAF;
+    margin-top: 0.2em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    border-radius: 0.1em;
+    background: #fff;
+}
+
+.plus-section {
+    font-size: 1em;
+    text-align: center;
+}
+
+
+
+.plus {
+    width: 0.3em;
+    height: 0.3em;
+}
+
+.plus-text {
+    font-size: 0.25em;
+}
+
+.format-section {
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 0.3em;
+
+}
+
+.format {
+    font-size: 0.2em;
+}
+
+
+.format-type {
+    font-size: 0.1em;
+}
+
+
+.second-section {
+    margin-top: 1em;
+    background: #fff;
+    padding: .5em 0.5em 0 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+#first-inp {
+    padding: 1.3em 1.3em 1.3em 2em;
+    width: 100%;
+    border: 0.2em solid #9999992c;
+    box-shadow: 0.01em #9999992c;
     border-radius: 0.5em;
-    border: 0.01em solid #1875F0;
+    font-size: 0.15em;
+}
+
+
+.input-line {
+    display: flex;
+    gap: 2em;
+}
+
+#second-inp {
+    padding: 1.2em 1.2em 1.2em 2em;
+    text-align: left;
+    font-size: 0.15em;
+    border: 0.1em solid #9999992c;
+    box-shadow: 0.05em #9999992c;
+    border-radius: 0.5em;
+}
+
+.kot {
+    border: 0.01em solid #999999;
     display: flex;
     align-items: center;
-    justify-content: center;
+    background: #fff;
+    padding-left: 0.1em;
+    border-radius: 0.07em;
+    border: 0.02em solid #9999992c;
+    box-shadow: 0.01em #9999992c;
+}
+
+
+.kot-text {
+    width: 4em;
+    height: 2em;
+    display: flex;
+    font-size: 0.15em;
+    background: #4e4d4d8e;
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    background: #dfdfdf;
+    border-radius: 0.5em;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
-.visit-text {
+.kot img {
+    width: 0.7em;
+    height: 0.6em;
 
-    font-family: Golos;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 46.45px;
-    letter-spacing: 1px;
+
+}
+
+
+#kot-line {
     text-align: left;
+    border: none;
+    padding-left: 1em;
+
+}
+
+.message-select {
+    width: 20em;
+    height: 10em;
+    border: 0.01em solid #AFAFAF;
+    margin-top: 0.3em;
+    background: #EFEFEFCC;
+    display: flex;
+    padding-bottom: 5em;
+}
+
+.message-to {
+    font-size: 1em;
+}
+
+.cancel {
+    width: 18em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1875F0;
+    padding: 0 2em 0 2em;
+    border-radius: 0.5em;
+    background: #fff;
+
+
+}
+
+.cancel-text {
+    font-size: 0.8em;
+    padding: 0 0.5em 0 1.5em;
     color: #1875F0;
+}
+
+#message1 {
+    padding: 1.5em 0 4em 2em;
+    width: 100%;
+    border: 0.2em solid #9999992c;
+    box-shadow: 0.01em #9999992c;
+    color: #000000;
+    border-radius: 0.5em;
+}
+
+.message-select {
+    padding: 2em 3em 2em 3em;
+    width: 100%;
+    height: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.2em solid #9999991c;
+    box-shadow: 0.01em #9999992c;
+    border-radius: 0.5em;
+
+}
+
+.message-to {
+    font-size: 1em;
+}
+
+.message-select .fa-angle-down {
+    color: #AFAFAF;
+}
+
+
+.send-btn {
+    margin: 0 0 3em 3em;
+    border-radius: 0.5em;
+    width: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1875F0;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em #1875F0;
+    color: #FFFFFF;
+    border: none;
+
+}
+
+.send {
+    padding: 1.3em 1em 1.3em 1em;
+    font-size: 1em;
 }
 
 .column {
@@ -740,7 +753,6 @@ ul li .third {
     justify-content: center;
     align-items: center;
 
-
 }
 
 .page-footer {
@@ -775,303 +787,4 @@ ul li .third {
 
 .page-footer .active {
     color: #000000;
-}
-
-@media (max-width: 1100px) {
-
-    .header {
-        font-size: 5rem;
-        background: #fff;
-        padding: 0;
-        padding: 0 0.5em;
-
-    }
-
-    .first-line {
-        display: none;
-
-    }
-
-    .second-line {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-    }
-
-    .mob-text {
-        font-size: 0.5em;
-        display: block;
-
-    }
-
-    .first-line,
-    .second-line ul,
-    .pages {
-        display: none;
-    }
-
-    .fa-bars {
-        padding: 0;
-        font-size: 1.5em;
-        border: none;
-        color: #999999;
-    }
-
-    .fa-magnifying-glass {
-        padding: 0;
-        padding-bottom: 1.3em;
-        font-size: 0.4em;
-        color: #999999;
-        border: none;
-        margin: 0;
-    }
-
-
-    .container {
-        font-size: 2rem;
-        flex-direction: column;
-        width: 80%;
-        margin: 0.1em auto 0;
-    }
-
-    .all-photo {
-        width: 100%;
-    }
-
-    .arxiv {
-        font-family: Golos;
-        font-size: 0.7em;
-        font-weight: 400;
-        line-height: 0.5em;
-        text-align: left;
-        padding-bottom: 0.7em;
-
-    }
-
-
-
-    .first-photo {
-        display: flex;
-
-    }
-
-
-    .tree,
-    .clock,
-    .video,
-    .video-concratulate {
-        width: 100%;
-        height: 70%;
-        padding: 0.05em 0.05em;
-        background: #fff;
-        border-radius: 0.05em;
-    }
-
-
-
-    .photos {
-        width: 50%;
-        border: 0.01em solid #99999921;
-        border-radius: 0.05em;
-        box-shadow: 0.02em 0.02em #99999921;
-        background: #fff;
-
-    }
-
-    .photos-text {
-        padding: 0.4em 0 0.1em 0;
-        display: flex;
-        font-family: Golos;
-        font-size: 0.5em;
-        font-weight: 500;
-        line-height: 1em;
-        color: #333333;
-    }
-
-    .museum {
-        width: 50%;
-        border: 1px solid #99999921;
-        border-radius: 0.05em;
-        box-shadow: 0.02em 0.02em #99999921;
-        background: #fff;
-    }
-
-    .museum-text {
-        padding: 0.1em 6em 0.3em 6em;
-        display: flex;
-        font-family: Golos;
-        font-size: 0.5em;
-        font-weight: 500;
-        line-height: 1em;
-        color: #333333;
-        text-align: center;
-
-    }
-
-    .second-photo {
-        display: flex;
-    }
-
-    .videos {
-        width: 50%;
-        border: 1px solid #99999921;
-        border-radius: 0.05em;
-        box-shadow: 0.02em 0.02em #99999921;
-        background: #fff;
-    }
-
-    .videos-text {
-        padding: 0.5em 0 0.1em 0;
-        display: flex;
-        font-family: Golos;
-        font-size: 0.5em;
-        font-weight: 500;
-        line-height: 1em;
-        color: #333333;
-
-    }
-
-    .congratulate {
-        width: 50%;
-        border: 1px solid #99999921;
-        border-radius: 0.05em;
-        box-shadow: 0.02em 0.02em #99999921;
-        background: #fff;
-    }
-
-    .congratulate-text {
-        padding: 0.1em 7em 0.3em 6em;
-        display: flex;
-        font-family: Golos;
-        font-size: 0.5em;
-        font-weight: 500;
-        line-height: 1em;
-        color: #333333;
-        text-align: center;
-    }
-
-    .add {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 1.5em;
-        border-bottom: 0.01em solid #E1E1E1;
-
-    }
-
-    .add-btn {
-        border-radius: 0.5em;
-        background: #1875F0;
-        padding: 0 0.7em;
-    }
-
-    .add-text {
-        display: flex;
-        color: #FFFFFF;
-        font-family: Golos;
-        font-size: 0.7em;
-        font-weight: 500;
-        line-height: 5em;
-        letter-spacing: 0.2em;
-        text-align: left;
-
-
-    }
-
-    .arctic {
-        height: 13em;
-        background: url("photo/mayak_bg@2x.png");
-        background-position: left bottom;
-        box-shadow: 0.02em 0.02em #e1e1e1;
-        margin-top: 2.5em;
-        border-radius: 0.3em;
-
-    }
-
-
-    .arctic-main {
-        display: flex;
-        flex-direction: column;
-        padding-top: 1em;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5em;
-    }
-
-    .arctic-text {
-        padding-top: .01em;
-        font-family: Golos;
-        font-size: 1em;
-        font-weight: 500;
-        line-height: 2em;
-        text-align: left;
-        color: #000000;
-    }
-
-
-
-    .mayak img {
-        width: 6em;
-        height: 4em;
-    }
-
-    .visit {
-        width: 11em;
-        border-radius: 0.5em;
-        border: 0.01em solid #1875F0;
-
-    }
-
-    .visit-text {
-
-        font-family: Golos;
-        font-size: 10px;
-        font-weight: 500;
-        line-height: 46.45px;
-        letter-spacing: 1px;
-        text-align: left;
-        color: #1875F0;
-    }
-
-    .column {
-        display: none;
-    }
-
-    .page-footer {
-        padding: 0.5em 0.5em 0.5em 0.8em;
-        margin-top: 3em;
-        font-size: 3rem;
-        padding-bottom: 3em;
-    }
-
-    .container2 {
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-    }
-
-    .portal {
-
-        padding: 1em 0 0 0.01em;
-        font-family: Golos;
-        font-size: 0.7em;
-        font-weight: 900;
-        line-height: 1em;
-        letter-spacing: 0.19638599455356598px;
-        text-align: left;
-
-    }
-
-    .container2 ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 0.6em;
-        padding-left: 0.01em;
-    }
-
-
 }
