@@ -181,13 +181,14 @@ body {
     display: flex;
     justify-content: center;
     margin: 0.5em auto 0 auto;
-    width: 1200px;
+    width: 80%;
     gap: 0.5em;
 }
 
 .main {
     display: flex;
     flex-direction: column;
+    width: 80%;
 }
 
 .pages {
@@ -844,8 +845,10 @@ ul li .third {
 
 
     .container {
+        display: flex;
         font-size: 2rem;
         flex-direction: column;
+        align-items: center;
         width: 80%;
         margin: 0.1em auto 0;
     }
