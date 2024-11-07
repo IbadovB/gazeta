@@ -179,11 +179,11 @@ body {
 }
 
 .xmark {
-    /* padding: 0.8em 0.7em 0.8em 0.5em; */
+ 
     background: #fff;
     color: #999999;
     border: none;
-    font-size: 1em;
+    font-size: 0.7em;
 }
 
 .mob-xmark {
@@ -213,11 +213,7 @@ body {
         padding: 0.4em 0.5em 0.4em .5em;
     }
 
-  /*  .mob-first {
-        display: flex;
-        gap: 1.1em;
-        padding: 0.4em 0.5em 0.4em .5em;
-    }*/
+
 
     .mob-text {
         display: block;
