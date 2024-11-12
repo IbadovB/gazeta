@@ -26,11 +26,9 @@ body {
 }
 
 .first-line {
-
     display: flex;
     justify-content: space-between;
     padding-bottom: 0.8em;
-
 }
 
 .city {
@@ -123,13 +121,11 @@ body {
 
 
 .second-line {
-
     display: flex;
     justify-content: space-between;
     border-top: 1px solid hsl(0, 0%, 0%, 0.1);
     border-bottom: 1px solid hsl(0, 0%, 0%, 0.1);
     background: #fff;
-
 }
 
 
@@ -175,27 +171,26 @@ body {
     font-size: 1.2em;
     color: #999999;
     border-left: 0.1em solid hsl(0, 0%, 0%, 0.1);
-
-
 }
 
 .search {
     background: #fff;
     border: none;
     border-right: 0.1em solid hsl(0, 0%, 0%, 0.1);
-
 }
 
 .search input {
     display: none;
 }
 
+
 .container {
     font-size: 10rem;
     display: flex;
-    /* justify-content: space-between; */
-    width: 80%;
+    justify-content: center;
     margin: 0.5em auto 0 auto;
+    width: 10.5em;
+    gap: 0.5em;
 }
 
 .pages {
@@ -239,20 +234,15 @@ ul li .third {
 .main {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 80%;
 
 }
 
 .photo-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 0.5em 3.5em 0 0;
-    width: 30%;
-}
-
-.photo-container img {
-    width: 2.5em;
-}
+    padding: 0.5em 0.5em 0 0;
+ }
 
 
 .column {
@@ -260,7 +250,7 @@ ul li .third {
     padding: 0 0 0.4em 0.5em;
     display: flex;
     flex-direction: column;
-    gap: 0.3em;
+    gap: 0.01em;
     width: 30%;
 }
 
@@ -666,20 +656,19 @@ ul li .third {
     }
 
     .container {
-            margin-top: 0.01em;
-            margin: 0 auto;      
-          
-         
-    }
+       
+        width: 40%;
+        margin-top: 0.01em;
+      }
 
-/*.main {
-    width: 60%;
-    margin: auto;
-    
-}*/
+    .main {
+        align-items: center;
+    }
 
     .video {
         font-size: 0.2em;
+        text-align: left;
+        padding-right: 11em;
     }
 
     .photos-6,
@@ -693,21 +682,19 @@ ul li .third {
     .photo-container {
         display: grid;
         grid-template-columns: auto auto;
-        padding-top: 0.2em;
-        padding: 0;
-        width: 60%;
-    }
+        padding: 0.2em 0 0 0;
+     }
 
     .photo-container img {
         width: 1.4em;
     }
-
 
     .page-footer {
         padding: 0.5em 0.5em 0.5em 0.8em;
         margin-top: 3em;
         font-size: 3rem;
         padding-bottom: 3em;
+   
     }
 
     .container2 {
